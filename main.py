@@ -23,7 +23,7 @@ class App_main(MDApp):
         btn_flat_recept = MDRectangleFlatIconButton(text="Receptek", icon="food", size_hint_x=1)
 
         # Jobb alsó gomb (Vonalkód)
-        btn_flat_vonalkod = MDRectangleFlatIconButton(text="Vonalkód", icon="barcode", size_hint_x=1)
+        btn_flat_vonalkod = MDRectangleFlatIconButton(text="Vonalkod", icon="barcode", size_hint_x=1)
 
         # Gombok hozzáadása az alsó BoxLayout-hoz
         bottom_buttons.add_widget(btn_flat_recept)
